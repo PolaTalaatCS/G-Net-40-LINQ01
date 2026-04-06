@@ -1,8 +1,9 @@
 ﻿
 
-using System.Linq;
-using G_Net_40_LINQ01.Models;
 using G_Net_40_LINQ01.DataSources;
+using G_Net_40_LINQ01.Helper;
+using G_Net_40_LINQ01.Models;
+using System.Linq;
 namespace G_Net_40_LINQ01
 {
     internal class Program
@@ -112,6 +113,14 @@ namespace G_Net_40_LINQ01
             //foreach (var product in productlist)
             //{
             //    Console.WriteLine($"{product.Item1}. {product.Item2}");
+            //}
+            #endregion
+            #region Question 12
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //var sort = Arr.OrderByDescending(p => p.Length).ThenBy(p => p, new StringCaseInsensitiveComparer());
+            //foreach (var item in sort)
+            //{
+            //    Console.WriteLine(item);
             //}
             #endregion
 
