@@ -82,6 +82,13 @@ namespace G_Net_40_LINQ01
             //    Console.WriteLine(product);
             //}
             #endregion
+            #region Question 9
+            //var productlist = Source.ProductList.Where(p => p.Category == "Beverages").OrderByDescending(p => p.UnitsInStock);
+            //foreach (var product in productlist)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
     }
 }
