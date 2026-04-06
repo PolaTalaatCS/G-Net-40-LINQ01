@@ -1,5 +1,6 @@
 ﻿
 
+using System.Linq;
 using G_Net_40_LINQ01.Models;
 using G_Net_40_LINQ01.DataSources;
 namespace G_Net_40_LINQ01
@@ -89,6 +90,23 @@ namespace G_Net_40_LINQ01
             //    Console.WriteLine(product);
             //}
             #endregion
+            #region Question 10
+            //var result =
+            //    from c in Source.CustomerList
+            //    from o in c.Orders
+            //    where o.OrderDate.Year >= 1997
+            //    select new
+            //    {
+            //        CustomerID = c.CustomerID,
+            //        o.OrderDate
+            //    };
+
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"{item.CustomerID} - {item.OrderDate:d}");
+            //}
+            #endregion
+
         }
     }
 }
