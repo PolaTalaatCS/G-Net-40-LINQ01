@@ -48,6 +48,13 @@ namespace G_Net_40_LINQ01
             //}
 
             #endregion
+            #region Question 5
+            //var productlist = Source.ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Condiments");
+            //foreach (var product in productlist)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
     }
 }
