@@ -106,6 +106,14 @@ namespace G_Net_40_LINQ01
             //    Console.WriteLine($"{item.CustomerID} - {item.OrderDate:d}");
             //}
             #endregion
+            #region Question 11
+            //var productlist = Source.ProductList.Select((p, index) => (index + 1, p.ProductName));
+
+            //foreach (var product in productlist)
+            //{
+            //    Console.WriteLine($"{product.Item1}. {product.Item2}");
+            //}
+            #endregion
 
         }
     }
