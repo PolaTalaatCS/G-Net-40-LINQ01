@@ -123,6 +123,17 @@ namespace G_Net_40_LINQ01
             //    Console.WriteLine(item);
             //}
             #endregion
+            #region Question 13
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+    //        var strings = Arr.Where(p => p.Length >= 2 && p[1] == 'i')
+    //.Reverse();
+
+    //        foreach (var item in strings)
+    //        {
+    //            Console.WriteLine(item);
+    //        }
+            #endregion
+
 
         }
     }
