@@ -67,6 +67,21 @@ namespace G_Net_40_LINQ01
             //    Console.WriteLine(product);
             //}
             #endregion
+            #region Question 7
+            //var productlist = Source.ProductList.Select((p, index) => (index + 1, p.ProductName));
+
+            //foreach (var product in productlist)
+            //{
+            //    Console.WriteLine($"{product.Item1}. {product.Item2}");
+            //}
+            #endregion
+            #region Question 8
+            //var productlist = Source.ProductList.OrderBy(p => p.Category).ThenByDescending(p => p.UnitPrice);
+            //foreach (var product in productlist)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
     }
 }
