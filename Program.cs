@@ -40,6 +40,14 @@ namespace G_Net_40_LINQ01
             //    Console.WriteLine($"Name {i.ProductName} price {i.UnitPrice}");
             //}
             #endregion
+            #region Question 4
+            //var productlist4 = Source.ProductList.Where(p => p.UnitPrice > 10 && p.UnitPrice < 30);
+            //foreach (var product in productlist4)
+            //{
+            //    Console.WriteLine(product);
+            //}
+
+            #endregion
         }
     }
 }
