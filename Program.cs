@@ -55,6 +55,18 @@ namespace G_Net_40_LINQ01
             //    Console.WriteLine(product);
             //}
             #endregion
+            #region Question 6
+            //var productlist = Source.ProductList.Select(p => new
+            //{
+            //    name = p.ProductName,
+            //    price = p.UnitPrice,
+            //    stockStatus = p.UnitsInStock > 0 ? "Available" : "Out of Stock"
+            //});
+            //foreach (var product in productlist)
+            //{
+            //    Console.WriteLine(product);
+            //}
+            #endregion
         }
     }
 }
